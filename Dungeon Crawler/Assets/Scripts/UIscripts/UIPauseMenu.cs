@@ -10,14 +10,11 @@ public class UIPauseMenu : MonoBehaviour
     [SerializeField] public GameObject menu;
     private bool _menuOpen;
     
-    [SerializeField] public GameObject inventory;
-    private bool _inventory;
-    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && SceneManager.SceneFight.activeSelf == false)
         {
-            OpenClosePauseMenu();
+            OpenCloseMenu();
         }
     }
 
@@ -26,7 +23,7 @@ public class UIPauseMenu : MonoBehaviour
         menu.SetActive(false);
     }
 
-    public void OpenClosePauseMenu()
+    public void OpenCloseMenu()
     {
         
         _menuOpen = !_menuOpen;
@@ -43,13 +40,7 @@ public class UIPauseMenu : MonoBehaviour
         
     }
     
-    public void OpenCloseInventory()
-    {
-        
-        _inventory = !_inventory;
-        inventory.SetActive(_inventory);
-        
-    }
+    
     
     
     public void ReloadScene()
@@ -61,7 +52,7 @@ public class UIPauseMenu : MonoBehaviour
     
     public void Quit()
     {
-        OpenClosePauseMenu();
+        OpenCloseMenu();
         Time.timeScale = 1;
         Debug.Log("supposed to quit");
         Application.Quit();
