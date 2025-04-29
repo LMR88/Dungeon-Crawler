@@ -2876,18 +2876,26 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114684534}
-  m_LocalRotation: {x: -0, y: -0, z: 0.70710546, w: 0.70710814}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.4904687, y: 3.95, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 275444455}
   - {fileID: 136339046}
+<<<<<<< HEAD
   m_Father: {fileID: 352115487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -720.9, y: 167.2}
+=======
+  m_Father: {fileID: 2063232355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> 0cd4362 (Scene update)
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114684536
@@ -5017,6 +5025,7 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 684734841446188275, guid: 26f60d9b7b360014486fd41d92498a17, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5045,6 +5054,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -74.7
       objectReference: {fileID: 0}
+=======
+>>>>>>> 0cd4362 (Scene update)
     - target: {fileID: 813649762748423210, guid: 26f60d9b7b360014486fd41d92498a17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -5619,9 +5630,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7394782567344927466, guid: 26f60d9b7b360014486fd41d92498a17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2063232355}
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 7394782567344927466, guid: 26f60d9b7b360014486fd41d92498a17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1114684535}
+=======
+>>>>>>> 0cd4362 (Scene update)
     - targetCorrespondingSourceObject: {fileID: 3501849769587473020, guid: 26f60d9b7b360014486fd41d92498a17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 711869434}
@@ -5690,6 +5704,10 @@ RectTransform:
   m_Children:
   - {fileID: 1034872238}
   - {fileID: 2056574428}
+<<<<<<< HEAD
+=======
+  - {fileID: 1114684535}
+>>>>>>> 0cd4362 (Scene update)
   m_Father: {fileID: 352115487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
