@@ -42,10 +42,10 @@ public class PositionManager : MonoBehaviour
             if (posData.enemyArray[i] != null)
             {
                 spawnPos = enemyGrid.GetChild(i).position;
-<<<<<<< Updated upstream
+
 
                 Instantiate(posData.enemyArray[i], spawnPos, Quaternion.Euler(Vector3.zero));
-=======
+
                 
                 // Orientation selon le monde d'apparition
                 // i <= 3 : case du haut
@@ -64,7 +64,7 @@ public class PositionManager : MonoBehaviour
                 enemy.ApplyData(monster);
                 EnnemieHPbarList[i].gameObject.SetActive(true);
                 EnnemieHPbarList[i].text = dataE.dataMonster.m_hp.ToString();
->>>>>>> Stashed changes
+
             }
         }
         
@@ -76,9 +76,9 @@ public class PositionManager : MonoBehaviour
             {
                 spawnPos = playerGrid.GetChild(i).position;
                 
-<<<<<<< Updated upstream
+
                 Instantiate(posData.playerArray[i], spawnPos, Quaternion.Euler(Vector3.zero));
-=======
+
                 // Orientation selon le monde d'apparition
                 // i <= 3 : case du haut
                 // i > 3  : case du bas
@@ -95,7 +95,7 @@ public class PositionManager : MonoBehaviour
                 
                 PlayerHPbarList[i].gameObject.SetActive(true);
                 PlayerHPbarList[i].text = dataP.dataPlayer.m_hp.ToString();
->>>>>>> Stashed changes
+
             }
         }
     }
